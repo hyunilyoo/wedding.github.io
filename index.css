@@ -3,23 +3,151 @@
     padding: 0;
 }
 
-body {
-    margin: 0 auto;
-    max-width: 700px;
+@font-face {
+    font-family: englishFont;
+    src: url(fonts/SourceSerifPro-Regular.ttf)
+}
+
+@font-face {
+    font-family: koreanFont;
+    src: url(fonts/JejuMyeongjoOTF.otf);
 }
 
 .wrapper {
-    margin: 0 auto;
-    width: 100%;
+    max-width: 500px;
+    margin: auto;
 }
 
-/* .main-picture img {
-    width: 50%;
-} */
+.main {
+    display: block;
+    width: 100%;
+    margin: 0;
+}
+
+ .greeting {
+    height: 311px;
+    background-color: #fffde5;
+    text-align: center;
+}
+
+.groom {
+    font-family: koreanFont;
+    font-size: 24px;
+    padding-top: 135px;
+    padding-bottom: 20px;
+}
+
+.and {
+    font-family: koreanFont;
+    font-size: 18px;
+}
+
+.bride {
+    font-family: koreanFont;
+    font-size: 24px;
+    padding-top: 20px;
+    padding-bottom: 48px;
+}
+
+.info {
+    font-family: englishFont;
+    font-size: 14px;
+    padding-top: 16px;
+    text-align: center;
+}
 
 .main-picture {
-    width: 500px;
-    height: 650px;
-    background-image: url(imgs/ENG_V01.png);
+    height: 0;
+    background-image: url(imgs/img.jpg);
     background-size: 100%;
+    background-repeat: no-repeat no-repeat;
+    padding-bottom: 139%;
 }
+
+.main-message {
+    font-family: koreanFont;
+    text-align: center;
+    line-height: 200%;
+    background-color: #ecf0e8;
+}
+
+.message-title {
+    font-family: englishFont;
+    font-size: 14px;
+    padding-top: 46px;
+    text-align: center;
+}
+
+.message {
+    font-family: koreanFont;
+    font-size: 14px;
+    padding-top: 56px;
+}
+
+.name-container {
+    padding-top: 56px;
+    padding-bottom: 56px;
+    text-align: center;
+}
+
+.names {
+    font-family: koreanFont;
+    font-size: 14px;
+    margin-right: 32px;
+}
+
+.name-title {
+    font-family: koreanFont;
+    font-size: 10px;
+    margin-right: 8px;
+}
+
+.gallery {
+}
+
+.gallery-title {
+    font-family: englishFont;
+    font-size: 14px;
+    padding-top: 104px;
+    padding-bottom: 44px;
+    text-align: center;
+    background: linear-gradient(#ecf0e8, #ffffff);
+}
+
+.grid-photo {
+    display: grid;
+    grid-template-columns: 105px 105px 105px;
+    grid-template-rows: 105px 105px 105px;
+    padding-top: 12px;
+    padding-bottom: 64px;
+    text-align: center;
+}
+
+.grid-item {
+}
+
+.grid-item img {
+    object-fit: cover;
+}
+
+/*
+.map {
+    background-image: url(imgs/ex_map.png);
+    width: 500px;
+    height: 300px;
+    background-size: 100%;
+    border: 3px dotted greenyellow;
+    margin-top: 50px;
+    margin: auto;
+}
+
+.footer {
+    border: 3px dotted black;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+}  */
+
+
+
+
