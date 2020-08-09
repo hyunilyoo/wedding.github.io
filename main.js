@@ -1,14 +1,16 @@
-const popupImage = document.getElementById("showImage");
-const image = document.getElementsByClassName("image");
-const showImage = document.getElementById("img1");
+const smallImage = document.getElementById("test-item");
+const showImage = document.getElementById("test-show");
 
-image.onclick = function() {
-    popupImage.style.display = "block";
-    showImage.src = this.src;
-}
+// smallImage.addEventListener('click', function() {
+//     showImage.classList.add("show-active");
+// });
 
-const span = document.getElementsByClassName("close")[0];
-
-span.onclick = function() {
-    popupImage.style.display = "none";
-}
+smallImage.addEventListener("click", function() {
+    if(showImage.style.visibility === "hidden") {
+        showImage.style.visibility = "visible";
+        showImage.style.opacity = 1;
+    } else {
+        showImage.style.visibility = "hidden";
+        showImage.style.opacity = 0;
+    }
+});
