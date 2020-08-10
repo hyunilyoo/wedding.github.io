@@ -81,6 +81,7 @@
 .message {
     font-family: koreanFont;
     font-size: 14px;
+    line-height: 32px;
     padding-top: 56px;
 }
 
@@ -92,8 +93,7 @@
 
 .names {
     font-family: koreanFont;
-    font-size: 14px;
-    margin-right: 32px;
+    font-size: 10px;
 }
 
 .name-title {
@@ -126,7 +126,6 @@
 .grid-item {
     width: 105px;
     height: 105px;
-    background-image: url(imgs/img.jpg);
     background-size: 100%;
     cursor: pointer;
     transition: 0.5s;
@@ -152,3 +151,181 @@
     height: 375px;
     background-size: 100%;
 }
+
+.img01 {
+    background-image: url(imgs/img.jpg);
+}
+
+.img02 {
+    background-image: url(imgs/testimg1.jpg);
+}
+
+.img03 {
+    background-image: url(imgs/testimg2.jpg);
+}
+
+.img04 {
+    background-image: url(imgs/img.jpg);
+}
+
+.img05 {
+    background-image: url(imgs/img.jpg);
+}
+
+.img06 {
+    background-image: url(imgs/img.jpg);
+}
+
+.img07 {
+    background-image: url(imgs/img.jpg);
+}
+
+.img08 {
+    background-image: url(imgs/img.jpg);
+}
+
+.img09 {
+    background-image: url(imgs/img.jpg);
+}
+
+.event {
+    background-color: #f6f3ec;
+}
+
+.event-title {
+    font-family: englishFont;
+    font-size: 14px;
+    padding-top: 56px;
+    padding-bottom: 56px;
+    text-align: center;
+}
+
+.event-content-1 {
+    font-family: englishFont;
+    font-size: 14px;
+    padding-bottom: 32px;
+    line-height: 26px;
+    text-align: center;
+}
+
+hr {
+    width: 64px;
+    height: 1;
+    opacity: 15%;
+    margin: auto;
+}
+
+.event-content-2 {
+    font-family: englishFont;
+    font-size: 14px;
+    padding-top: 32px;
+    padding-bottom: 56px;
+    line-height: 26px;
+    text-align: center;
+}
+
+.location-title {
+    font-family: englishFont;
+    font-size: 14px;
+    padding-top: 46px;
+    padding-bottom: 32px;
+    text-align: center;
+}
+
+.map {
+    width: 327px;
+    height: 295px;
+    background-image: url(imgs/map.png);
+    background-position: -80px -100px;
+    margin: auto;
+}
+
+.map-button {
+    display: block;
+    margin: auto;
+    font-family: koreanFont;
+    font-size: 14px;
+    color: #ffffff;
+    width: 327px;
+    height: 32px;
+    border: 0;
+    background-color: #272a24;
+    cursor: pointer;
+}
+
+.map-content {
+    font-family: englishFont;
+    font-size: 14px;
+    padding-top: 32px;
+    padding-bottom: 46px;
+    text-align: center;
+    line-height: 26px;
+}
+
+.rsvp {
+    background-color: #f6f3ec;
+    padding-bottom: 46px;
+}
+
+.rsvp-title {
+    font-family: englishFont;
+    font-size: 14px;
+    padding-top: 46px;
+    padding-bottom: 46px;
+    text-align: center;
+}
+
+.rsvp-content {
+    font-family: koreanFont;
+    font-size: 14px;
+    padding-bottom: 46px;
+    text-align: center;
+    line-height: 32px;
+}
+
+.rsvp-button {
+    display: block;
+    margin: auto;
+    font-family: englishFont;
+    font-size: 14px;
+    color: #ffffff;
+    width: 114px;
+    height: 32px;
+    border: 0;
+    background-color: #272a24;
+    cursor: pointer;
+}
+
+.contact-title {
+    font-family: koreanFont;
+    font-size: 14px;
+    padding-top: 46px;
+    padding-bottom: 56px;
+    text-align: center;
+}
+
+.groom-contact {
+    font-family: koreanFont;
+    font-size: 14px;
+    text-align: center;
+}
+
+.groom-contact span , .bride-contact span {
+    padding-left: 12px;
+}
+
+.bride-contact {
+    font-family: koreanFont;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 18px;
+    padding-bottom: 64px;
+}
+
+
+
+
+
+
+
+

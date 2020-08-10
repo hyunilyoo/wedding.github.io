@@ -31,67 +31,105 @@
                 </p>
                 <div class="name-container">
                     <p class="names">
-                        <span class="name-title">신랑</span>유현일
-                        <span class="name-title">신부</span>정윤지
+                        신랑<span style="font-size: 14px; padding-left: 8px; padding-right: 32px;">유현일</span>
+                        신부<span style="font-size: 14px; padding-left: 8px;">정윤지</span>
                     </p>
                 </div>
             </div>
         </section>
         <section class="gallery">
             <p class="gallery-title">gallery.</p>
+            <!-- Photo Grid -->
             <div class="grid-photo">
-                <div class="grid-item" id="test-item">
-                    <div class="show-img" id="test-show">
+                <div class="grid-item img01">
+                    <div class="show-img" id="1">
                         <img src="imgs/img.jpg" alt="" class="img-content">
                     </div>
                 </div>
-                <div class="grid-item" id="test-item">
-                    <div class="show-img" id="test-show">
+                <div class="grid-item img02">
+                    <div class="show-img">
+                        <img src="imgs/testimg1.jpg" alt="" class="img-content">
+                    </div>
+                </div>
+                <div class="grid-item img03">
+                    <div class="show-img">
+                        <img src="imgs/testimg2.jpg" alt="" class="img-content">
+                    </div>
+                </div>
+                <div class="grid-item img04">
+                    <div class="show-img">
                         <img src="imgs/img.jpg" alt="" class="img-content">
                     </div>
                 </div>
-                <div class="grid-item" id="test-item">
-                    <div class="show-img" id="test-show">
+                <div class="grid-item img05">
+                    <div class="show-img">
                         <img src="imgs/img.jpg" alt="" class="img-content">
                     </div>
                 </div>
-                <div class="grid-item" id="test-item">
-                    <div class="show-img" id="test-show">
+                <div class="grid-item img06">
+                    <div class="show-img">
                         <img src="imgs/img.jpg" alt="" class="img-content">
                     </div>
                 </div>
-                <div class="grid-item" id="test-item">
-                    <div class="show-img" id="test-show">
+                <div class="grid-item img07">
+                    <div class="show-img">
                         <img src="imgs/img.jpg" alt="" class="img-content">
                     </div>
                 </div>
-                <div class="grid-item" id="test-item">
-                    <div class="show-img" id="test-show">
+                <div class="grid-item img08">
+                    <div class="show-img">
                         <img src="imgs/img.jpg" alt="" class="img-content">
                     </div>
                 </div>
-                <div class="grid-item" id="test-item">
-                    <div class="show-img" id="test-show">
-                        <img src="imgs/img.jpg" alt="" class="img-content">
-                    </div>
-                </div>
-                <div class="grid-item" id="test-item">
-                    <div class="show-img" id="test-show">
-                        <img src="imgs/img.jpg" alt="" class="img-content">
-                    </div>
-                </div>
-                <div class="grid-item" id="test-item">
-                    <div class="show-img" id="test-show">
+                <div class="grid-item img09">
+                    <div class="show-img">
                         <img src="imgs/img.jpg" alt="" class="img-content">
                     </div>
                 </div>
             </div>
+            <!-- End of Grid -->
         </section>
-        <section class="map">
-            Map Section
+        <section class="event">
+            <p class="event-title">events.</p>
+            <p class="event-content-1">
+                wedding ceremony
+                <br>5:30pm
+            </p>
+            <hr align="center">
+            <p class="event-content-2">
+                reception
+                <br>6:30pm
+            </p>
         </section>
-        <section class="footer">Footer</section>
-        <script src="main.js"></script>
+        <section class="location">
+            <p class="location-title">location.</p>
+            <div class="map"></div>
+            <button class="map-button" onclick="window.location.href='https://www.google.com/maps/place/Saratoga+Springs+Events+%26+Weddings/@37.2498654,-122.0704907,17z/data=!3m1!4b1!4m5!3m4!1s0x808e4b43b6696425:0x5eb7cbd719ad3eea!8m2!3d37.2498654!4d-122.068302';">
+                구글맵 바로가기
+            </button>
+            <p class="map-content">
+                Saratoga Springs Events & Weddings
+                <br>22801 Big Basin Way
+                <br>Saratoga, CA 95070
+            </p>
+        </section>
+        <section class="rsvp">
+            <p class="rsvp-title">rsvp.</p>
+            <p class="rsvp-content">
+                올 가을에
+                <br>두 사람의 시작을
+                <br>축복해 주세요.
+            </p>
+            <button class="rsvp-button">
+                RSVP here
+            </button>
+        </section>
+        <section class="contact">
+            <p class="contact-title">contact info.</p>
+            <p class="groom-contact">신랑 연락처<span>530.450.9650</span></p>
+            <p class="bride-contact">신부 연락처<span>408.421.9671</span></p>
+        </section>
+        <script src="gallery.js"></script>
     </div>
 </body>
 </html>
