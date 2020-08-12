@@ -146,46 +146,56 @@
     transition: visibility 0s, opacity 0.5s;
 }
 
+#img2 {
+    background-position: 0px 110px;
+}
+
+#img2 .show-img  .img-content{
+    background-position: 0px -80px;
+}
+
+#img3 {
+    background-position: 0px -30px;
+}
+
+#img3 .show-img  .img-content{
+    background-position: 0px -80px;
+}
+
+#img4 {
+    background-position: 0px -30px;
+}
+
+#img4 .show-img  .img-content{
+    background-position: 0px -100px;
+}
+
+#img5 {
+    background-position: 0px -30px;
+}
+
+#img5 .show-img  .img-content{
+    background-position: 0px -80px;
+}
+
+#img6 {
+    background-position: 0px 0px;
+}
+#img7 {
+    background-position: 0px 10px;
+}
+#img8 {
+    background-position: 0px 10px;
+}
+#img9 {
+    background-position: 0px 110px;
+}
+
+
 .img-content {
     width: 375px;
     height: 375px;
     background-size: 100%;
-}
-
-.img01 {
-    background-image: url(imgs/img.jpg);
-}
-
-.img02 {
-    background-image: url(imgs/testimg1.jpg);
-}
-
-.img03 {
-    background-image: url(imgs/testimg2.jpg);
-}
-
-.img04 {
-    background-image: url(imgs/img.jpg);
-}
-
-.img05 {
-    background-image: url(imgs/img.jpg);
-}
-
-.img06 {
-    background-image: url(imgs/img.jpg);
-}
-
-.img07 {
-    background-image: url(imgs/img.jpg);
-}
-
-.img08 {
-    background-image: url(imgs/img.jpg);
-}
-
-.img09 {
-    background-image: url(imgs/img.jpg);
 }
 
 .event {
