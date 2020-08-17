@@ -321,6 +321,7 @@ hr {
     font-family: koreanFont;
     font-size: 14px;
     text-align: center;
+    text-decoration: none;
 }
 
 .groom-contact span , .bride-contact span {
