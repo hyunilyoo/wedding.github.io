@@ -385,6 +385,7 @@ hr {
     display: block;
     margin: auto;
     font-family: englishFont;
+    font-size: 14px;
     width: 130px;
     height: 30px;
     line-height: 19px;
