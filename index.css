@@ -150,6 +150,7 @@
 .grid-item {
     width: 105px;
     height: 105px;
+    border-radius: 2px;
     background-size: 100%;
     cursor: pointer;
     transition: 0.5s;
@@ -314,6 +315,7 @@ hr {
 .map {
     width: 327px;
     height: 295px;
+    border-radius: 2px;
     background-image: url(imgs/map.png);
     background-size: 140%;
     background-position: -10px -20px;
@@ -329,6 +331,7 @@ hr {
     width: 327px;
     height: 32px;
     border: 0;
+    border-radius: 2px;
     background-color: #272a24;
     cursor: pointer;
 }
