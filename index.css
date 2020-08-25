@@ -315,7 +315,8 @@ hr {
     width: 327px;
     height: 295px;
     background-image: url(imgs/map.png);
-    background-position: -80px -100px;
+    background-size: 140%;
+    background-position: -10px -20px;
     margin: auto;
 }
 
